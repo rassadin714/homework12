@@ -1,12 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Book warAndPeace = new Book("Л. Н.Толстой", "Война и Мир", 1867);
-        System.out.println("warAndPeace = " + warAndPeace.getAuthor());
+        Book warAndPeace = new Book("Война и Мир",1867);
         System.out.println("warAndPeace = " + warAndPeace.getBookName());
         System.out.println("warAndPeace = " + warAndPeace.getYearOfPublication());
 
-        Book greenMile = new Book("Стивен Кинг", "Зелена миля", 1996);
-        System.out.println("greenMile = " + greenMile.getAuthor());
+        Book greenMile = new Book("Зелена миля",  1996);
         System.out.println("greenMile = " + greenMile.getBookName());
         System.out.println("greenMile = " + greenMile.getYearOfPublication());
         greenMile.setYearOfPublication(2001);
